@@ -1,6 +1,8 @@
 .App {
   text-align: center;
-  background-color: #000000;
+  overflow: hidden;
+  background-color: #0b3500;
+  min-height: 100vh;
   & > .container{
     background-color: #0b3500;
   }

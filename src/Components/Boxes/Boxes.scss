@@ -9,6 +9,11 @@ button.square{
     text-align: center;
     font-family: Berlin Sans;
     vertical-align: middle;
+    @media screen and (max-width : 767px) {
+       width: 75px;
+       height: 75px;
+       font-size: 50px;
+    }
 }
 .square:focus {
   outline: none;

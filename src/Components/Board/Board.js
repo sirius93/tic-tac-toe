@@ -40,7 +40,12 @@ class Board extends Component {
     return null;
   }
   resetGame(){
-    return <Boxes value = {null} />
+    this.setState({
+      squares: Array(9).fill(null),
+      xIsNext: this.state.xIsNext,
+      xCount: 0,
+      oCount: 0
+    })
   }
   render() {
     const winner = this.calculateWinner(this.state.squares);
@@ -52,7 +57,7 @@ class Board extends Component {
     }
     return (
       <div className="container">
-        <div className="col-sm-8">
+        <div className="col-md-8 col-sm-12 col-xs-12">
             <div className="board-row">
               {this.renderSquare(0)}
               {this.renderSquare(1)}
@@ -69,7 +74,7 @@ class Board extends Component {
               {this.renderSquare(8)}
             </div>
         </div>
-        <div className="col-sm-4">
+        <div className="col-md-4 col-sm-12 col-xs-12">
           <div className="info-tab">
             <div className="moves-heading">
               moves

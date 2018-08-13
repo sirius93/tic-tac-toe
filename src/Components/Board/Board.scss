@@ -9,9 +9,17 @@
 .info-tab{
     float: left;
     margin-left: 0px;
+    @media screen and (max-width : 991px) {
+        float: unset;
+        margin-left: unset;
+        margin-top: 30px;
+    }
 }
 .Board{
     margin: 70px;
+    @media screen and (max-width : 991px) {
+        margin: 50px auto;
+    }
 }
 .moves-heading{
     font-size: 50px;
@@ -19,6 +27,9 @@
     text-transform: uppercase;
     font-family: Berlin Sans;
     opacity: 0.5;
+    @media screen and (max-width : 991px) {
+        font-size: 35px;
+    }
 }
 .reset-button{
     font-family: Berlin Sans;
@@ -36,5 +47,9 @@
         text-decoration: none;
         color: white;
         opacity: 0.5;
+    }
+    @media screen and (max-width : 991px) {
+        float: unset;
+        margin-top: 20px;
     }
 }
