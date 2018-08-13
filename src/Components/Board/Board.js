@@ -57,32 +57,34 @@ class Board extends Component {
     }
     return (
       <div className="container">
-        <div className="col-md-8 col-sm-12 col-xs-12">
-            <div className="board-row">
-              {this.renderSquare(0)}
-              {this.renderSquare(1)}
-              {this.renderSquare(2)}
+        <div className="row">
+          <div className="col-md-8 col-sm-12 col-xs-12">
+              <div className="board-row">
+                {this.renderSquare(0)}
+                {this.renderSquare(1)}
+                {this.renderSquare(2)}
+              </div>
+              <div className="board-row">
+                {this.renderSquare(3)}
+                {this.renderSquare(4)}
+                {this.renderSquare(5)}
+              </div>
+              <div className="board-row">
+                {this.renderSquare(6)}
+                {this.renderSquare(7)}
+                {this.renderSquare(8)}
+              </div>
+          </div>
+          <div className="col-md-4 col-sm-12 col-xs-12">
+            <div className="info-tab">
+              <div className="moves-heading">
+                moves
+              </div>
+              <div className="status">X : {this.state.xCount}</div>
+              <div className="status">O : {this.state.oCount}</div>
+              <div className="status">{status}</div>
+              <a href="javascript:void(0)" onClick={() => this.resetGame()} className="reset-button">Play Again</a>
             </div>
-            <div className="board-row">
-              {this.renderSquare(3)}
-              {this.renderSquare(4)}
-              {this.renderSquare(5)}
-            </div>
-            <div className="board-row">
-              {this.renderSquare(6)}
-              {this.renderSquare(7)}
-              {this.renderSquare(8)}
-            </div>
-        </div>
-        <div className="col-md-4 col-sm-12 col-xs-12">
-          <div className="info-tab">
-            <div className="moves-heading">
-              moves
-            </div>
-            <div className="status">X : {this.state.xCount}</div>
-            <div className="status">O : {this.state.oCount}</div>
-            <div className="status">{status}</div>
-            <a href="javascript:void(0)" onClick={() => this.resetGame()} className="reset-button">Play Again</a>
           </div>
         </div>
       </div>
