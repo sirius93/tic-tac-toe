@@ -1,5 +1,12 @@
+@font-face {
+  font-family: 'Berlin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./assets/fonts/Berlin-Sans-FB Regular.ttf');
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Berlin Sans;
 }

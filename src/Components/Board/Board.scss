@@ -1,9 +1,40 @@
-.board-row::after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  
-  .status {
-    margin-bottom: 10px;
-  }
+.status {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: Berlin Sans;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.info-tab{
+    float: left;
+    margin-left: 0px;
+}
+.Board{
+    margin: 70px;
+}
+.moves-heading{
+    font-size: 50px;
+    color: #010400;
+    text-transform: uppercase;
+    font-family: Berlin Sans;
+    opacity: 0.5;
+}
+.reset-button{
+    font-family: Berlin Sans;
+    font-size: 25px;
+    color: white;
+    opacity: 0.5;
+    border: 1px solid white;
+    padding: 20px 35px;
+    background: #485145;
+    border-radius: 50%;
+    margin: 20px auto;
+    float: left;
+    &:hover,
+    &:focus{
+        text-decoration: none;
+        color: white;
+        opacity: 0.5;
+    }
+}

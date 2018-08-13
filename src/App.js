@@ -7,11 +7,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Tic Tac Toe</h1>
-        </header>
-        <div className="Board">
-          <Board/>
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
+              <div className="Board">
+                <Board/>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
