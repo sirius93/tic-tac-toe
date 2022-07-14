@@ -2,7 +2,7 @@
   "name": "react-starter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sirius93.github.io/React-TicTacToe",
+  "homepage": "https://sirius93.github.io/tic-tac-toe",
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^3.3.7",
