@@ -1,13 +1,15 @@
 {
-  "main.css": "static/css/main.bd108c23.css",
-  "main.css.map": "static/css/main.bd108c23.css.map",
-  "main.js": "static/js/main.238d2835.js",
-  "main.js.map": "static/js/main.238d2835.js.map",
-  "static/media/Berlin-Sans-FB Regular.ttf": "static/media/Berlin-Sans-FB Regular.fe2027c2.ttf",
-  "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
-  "static/media/glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
-  "static/media/glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
-  "static/media/glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
-  "static/media/glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
-  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
+  "files": {
+    "main.css": "/tic-tac-toe/static/css/main.cf2afa94.css",
+    "main.js": "/tic-tac-toe/static/js/main.39cd8890.js",
+    "static/media/Berlin-Sans-FB Regular.ttf": "/tic-tac-toe/static/media/Berlin-Sans-FB Regular.dc095e60ae5e90312573.ttf",
+    "static/media/logo.svg": "/tic-tac-toe/static/media/logo.2d27ead7c10f774c5306bcf3c257a728.svg",
+    "index.html": "/tic-tac-toe/index.html",
+    "main.cf2afa94.css.map": "/tic-tac-toe/static/css/main.cf2afa94.css.map",
+    "main.39cd8890.js.map": "/tic-tac-toe/static/js/main.39cd8890.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf2afa94.css",
+    "static/js/main.39cd8890.js"
+  ]
 }
