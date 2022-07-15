@@ -49,6 +49,18 @@ class Board extends Component {
   }
   render() {
     const winner = this.calculateWinner(this.state.squares);
+    const anchorStyle = {
+      "color": "white",
+      "position": "fixed",
+      "left": "25px",
+      "top": "10px",
+      "font-weight": "bolder",
+      "cursor":"pointer",
+      "font-size": "45px",
+      "font-family": "Berlin Sans",
+      "text-decoration": "none"
+    };
+
     let status;
     if (winner) {
       status =  winner + ' Wins the game' ;
@@ -57,6 +69,7 @@ class Board extends Component {
     }
     return (
       <div className="container">
+        <a href="/" title="Back to homepage" style={anchorStyle}><span>&larr;</span></a>
         <div className="row">
           <div className="col-md-8 col-sm-12 col-xs-12">
               <div className="board-row">
