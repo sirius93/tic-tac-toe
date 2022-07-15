@@ -70,7 +70,7 @@ class Board extends Component {
     return (
       <div className="container">
         <a href="/" title="Back to homepage" style={anchorStyle}><span>&larr;</span></a>
-        <div className="row">
+        <div className="row" style={{"margin-top":"100px"}}>
           <div className="col-md-8 col-sm-12 col-xs-12">
               <div className="board-row">
                 {this.renderSquare(0)}
