@@ -1,25 +1,21 @@
 {
-  "name": "react-starter",
+  "name": "react-tic-tac-toe",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sirius93.github.io/React-tic-tac-toe/",
+  "homepage": "https://sirius93.github.io/tic-tac-toe/",
   "dependencies": {
-    "axios": "^0.18.0",
-    "bootstrap": "^3.3.7",
-    "node-sass-chokidar": "^1.3.0",
-    "npm-run-all": "^4.1.3",
-    "react": "^16.3.2",
-    "react-bootstrap": "^0.32.1",
-    "react-dom": "^16.3.2",
-    "react-modal-video": "^1.2.0",
-    "react-redux": "^5.0.7",
-    "react-scripts": "1.1.4",
-    "redux": "^4.0.0",
-    "redux-form": "^7.3.0"
+    "bootstrap": "^5.1.3",
+    "npm-run-all": "^4.1.5",
+    "react": "16.5.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "16.5.0",
+    "react-scripts": "5.0.1",
+    "react-select": "2.1.2",
+    "sass": "^1.53.0"
   },
   "scripts": {
-    "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/",
-    "watch-css": "npm run build-css && node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o src/ --watch --recursive",
+    "build-css": "sass -I ./src -I ./node_modules src/:src/",
+    "watch-css": "npm run build-css && sass -I ./src -I ./node_modules src/:src/ --watch",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build-js": "react-scripts build",
@@ -31,5 +27,17 @@
   },
   "devDependencies": {
     "gh-pages": "^1.2.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
