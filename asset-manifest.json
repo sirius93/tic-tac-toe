@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/tic-tac-toe/static/css/main.7b83fbea.css",
+    "main.css": "/tic-tac-toe/static/css/main.a7b522fc.css",
     "main.js": "/tic-tac-toe/static/js/main.d1647603.js",
     "static/media/Berlin-Sans-FB Regular.ttf": "/tic-tac-toe/static/media/Berlin-Sans-FB Regular.dc095e60ae5e90312573.ttf",
     "static/media/logo.svg": "/tic-tac-toe/static/media/logo.2d27ead7c10f774c5306bcf3c257a728.svg",
     "index.html": "/tic-tac-toe/index.html",
-    "main.7b83fbea.css.map": "/tic-tac-toe/static/css/main.7b83fbea.css.map",
+    "main.a7b522fc.css.map": "/tic-tac-toe/static/css/main.a7b522fc.css.map",
     "main.d1647603.js.map": "/tic-tac-toe/static/js/main.d1647603.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b83fbea.css",
+    "static/css/main.a7b522fc.css",
     "static/js/main.d1647603.js"
   ]
 }
